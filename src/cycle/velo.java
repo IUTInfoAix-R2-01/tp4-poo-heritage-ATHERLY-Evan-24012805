@@ -48,6 +48,7 @@ public class velo {
 		this.genAlea = genAlea;
 	}
 	
+	@Override
 	public double getPuissance(double FrequenceCoupsDePedale) {
 		return FrequenceCoupsDePedale * this.braquet * this.diamRoue * this.genAlea.nextDouble();
 	}
