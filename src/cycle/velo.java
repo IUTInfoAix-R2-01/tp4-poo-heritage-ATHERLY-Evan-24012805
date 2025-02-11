@@ -47,12 +47,9 @@ public class velo {
 	public void setGenAlea(Random genAlea) {
 		this.genAlea = genAlea;
 	}
-	
-	@Override
 	public double getPuissance(double FrequenceCoupsDePedale) {
 		return FrequenceCoupsDePedale * this.braquet * this.diamRoue * this.genAlea.nextDouble();
 	}
-	@Override
 	public String toString() {
 		return "velo [braquet=" + braquet + ", diamRoue=" + diamRoue + ", genAlea=" + genAlea + "]";
 	}
