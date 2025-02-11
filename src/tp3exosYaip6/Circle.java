@@ -1,7 +1,7 @@
 package tp3exosYaip6;
 
 public class Circle implements GeometricObject{
-	private double radius;
+	protected double radius;
 	
 	public Circle (double radius) {
 		this.radius = radius;

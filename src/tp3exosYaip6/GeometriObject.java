@@ -1,6 +1,6 @@
 package tp3exosYaip6;
 
-public interface GeometricObject {
+public interface GeometriObject {
 	public double getArea();
 	public double getPerimeter();
 }

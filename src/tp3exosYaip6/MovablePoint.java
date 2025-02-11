@@ -15,16 +15,19 @@ public class MovablePoint implements Movable{
 	public String toString() {
 		return "MovablePoint [x=" + x + ", y=" + y + ", xSpeed=" + xSpeed + ", ySpeed=" + ySpeed + "]";
 	}
-	
+	@Override
 	public void moveUp() {
 		y-=this.ySpeed;
 	}
+	@Override
 	public void moveDown() {
 		y+=this.ySpeed;
 	}
+	@Override
 	public void moveLeft() {
 		x-=this.xSpeed;
 	}
+	@Override
 	public void moveRight() {
 		x-=this.xSpeed;
 	}
